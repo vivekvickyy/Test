@@ -1,0 +1,22 @@
+#com-k15t-confluence-scroll-epub-launcher{background-image:url("epub-images/epubicon_16.png");background-position:8px 50%;}
+#com-k15t-confluence-scroll-epub-launcher span{zoom:1;padding-left:20px!important;}
+form.k15t .pulldown{display:inline-block;overflow:hidden;position:relative;}
+form.k15t .pulldown.open{overflow:visible;}
+form.k15t .pulldown .pulldown-button{float:right;z-index:11;position:relative;}
+form.k15t .pulldown.open .pulldown-button{display:none;}
+form.k15t .pulldown .pulldown-menu{position:relative;overflow:visible;max-height:none;z-index:10;zoom:1;}
+form.k15t .pulldown.open .pulldown-menu{top:0;overflow:auto;min-width:100%;margin:0;}
+form.k15t .pulldown label input{position:absolute;top:-99999px;}
+form.k15t .pulldown label,form.aui.k15t .field-group .pulldown label{display:block;float:none;left:0;top:0;line-height:inherit;margin:0;padding:0;position:static;width:auto;text-align:left;overflow:hidden;zoom:1;}
+form.k15t .pulldown{height:40px;width:250px;}
+form.k15t .pulldown label{height:30px;}
+form.k15t .pulldown{border:1px solid black;}
+form.k15t .pulldown.open{border:0;}
+form.k15t .pulldown .pulldown-button{border-left:1px solid black;width:14px;height:100%;background:#FFF url('images/dropdown_icon.png') scroll no-repeat center center;}
+form.k15t .pulldown.open .pulldown-menu{background:#FFF;max-height:160px;border:1px solid black;left:0;top:0;}
+form.k15t .pulldown label{background:#FFF;color:#000;border-bottom:1px solid #DDD;overflow:hidden;line-height:100%;padding:5px!important;}
+form.k15t .pulldown.open label:hover,form.k15t .pulldown.open label.hovered,form.k15t .pulldown.open label.selected{background:#EEE;}
+form.k15t .pulldown img{max-height:30px;max-width:60px;vertical-align:middle;float:left;}
+form.k15t .pulldown span{margin:5px;}
+form.k15t .pulldown i.centered{display:block;text-align:center;line-height:30px;}
+form.k15t #artwork_preview{margin-top:20px;max-width:100%;max-height:350px;}

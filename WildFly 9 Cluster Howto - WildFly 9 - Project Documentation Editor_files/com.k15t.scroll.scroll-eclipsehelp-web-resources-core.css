@@ -1,0 +1,286 @@
+.k15t-dialog .scroll-content{
+  /* fixes IE7 layout issue (preset sidebar breaking to next line) */
+  display: inline-block;
+  float: left;
+}
+
+/* presets-sidebar ===================================================================================== */
+.k15t-dialog .presets-sidebar ul {
+    padding-left: 0;
+    margin-left: 0; /* IE7 does margin: 30pt otherwise */
+    list-style: none;
+}
+
+.k15t-dialog .presets-sidebar .toggle-trigger {
+    margin: 0;
+    background: url("images/mod_header_bg.png") repeat-x scroll 0 7px #FFFFFF;
+    cursor: pointer;
+    clear: both;
+}
+
+.k15t-dialog .presets-sidebar .toggle-trigger .toggle-indicator {
+    background: url("images/icons/icon_blockcollapsed.png") no-repeat scroll 2px 4px #FFFFFF;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 10px;
+}
+
+.preset-item-permalink, .preset-item-permalink:hover {
+  text-decoration: none;
+}
+
+.k15t-dialog .presets-sidebar .toggle-trigger.active .toggle-indicator {
+    background: url("images/icons/icon_blockexpanded.png") no-repeat scroll 0 8px #FFFFFF;
+}
+
+.k15t-dialog .presets-sidebar .toggle-trigger .toggle-label {
+    background-color: white;
+    padding: 0 4px 0 2px;
+}
+
+.k15t-dialog .presets-sidebar .toggle-target {
+    display: none;
+}
+
+.k15t-dialog .presets-sidebar .timestamp {
+    font-size: 11px;
+}
+.k15t-dialog .presets-sidebar .description {
+    cursor: default;
+    padding: 4px;
+    background-color: #eeeeee;
+}
+
+.k15t-dialog .presets-sidebar .description p {
+    margin:  0;
+}
+
+.k15t-dialog .presets-sidebar .preset-item {
+    clear: both;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.k15t-dialog .presets-sidebar .preset-item:last-child {
+    border-bottom: none;
+    margin-bottom: 8px;
+}
+
+.k15t-dialog .presets-sidebar .preset-item:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.k15t-dialog .presets-sidebar .preset-item .preset-item-delete {
+    float: right;
+    display: none;
+    text-decoration: none;
+}
+
+.k15t-dialog .presets-sidebar .preset-item:hover .preset-item-delete {
+    display: inline;
+    padding: 1px 3px 2px;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.k15t-dialog .presets-sidebar .preset-item .preset-item-delete:hover {
+    background-color: silver;
+}
+
+/* page selections ============================================================================= */
+.k15t-dialog .additionalConfigPSS {
+    padding-left: 167px;
+    display: none;
+}
+
+/* tabs ======================================================================================== */
+.k15t-dialog .aui-tabs.horizontal-tabs ul.tabs-menu li.menu-item.active-tab strong {
+    border-color: #FFFFFF #FFFFFF #BBBBBB;
+}
+
+.k15t-dialog #publisher-export-settings .aui-tabs.horizontal-tabs ul.tabs-menu li.menu-item.active-tab strong {
+    border-color: #BBBBBB #BBBBBB #FFFFFF;
+}
+
+.k15t-dialog .aui-tabs.horizontal-tabs ul.tabs-menu li.menu-item strong.error {
+    color: #CC0000;
+    font-weight: bold;
+}
+
+/* settings panel ============================================================================== */
+
+.k15t-dialog .com-k15t-scroll-settings {
+    padding-top: 2em;
+}
+
+.k15t-dialog .com-k15t-scroll-adhoc-workflow legend span {
+    background: url("images/adhoc_plogo.png") no-repeat scroll 0 0 transparent;
+}
+
+/* progress panel ============================================================================== */
+
+.k15t-dialog .com-k15t-scroll-progress {
+    padding-top: 1em;
+}
+
+.k15t-dialog .com-k15t-scroll-progress .tabs-pane {
+    padding: 1em 2em;
+}
+
+.k15t-dialog .progress-container {
+    width: 100%;
+    background-color: #efefef;
+    border: 1px solid silver;
+}
+
+.k15t-dialog .progress-indicator {
+    width: 100%;
+    background-color: #009fff;
+}
+
+.k15t-dialog .com-k15t-scroll-results .status-messages,
+.k15t-dialog .com-k15t-scroll-progress .status-messages {
+    padding: 0;
+    margin: 0;
+    overflow:  auto;
+    font-size: 11px;
+    max-height: 280px;
+    color: #999;
+}
+
+.k15t-dialog .com-k15t-scroll-results .status-messages-header,
+.k15t-dialog .com-k15t-scroll-progress .status-messages-header {
+    margin: 12px 0 4px 0;
+    font-size: 11px;
+    padding: 0;
+    color: #999;
+}
+
+.k15t-dialog .com-k15t-scroll-results .status-messages {
+    max-height: 220px;
+}
+
+/* result panel ================================================================================ */
+
+.k15t-dialog .com-k15t-scroll-results {
+    padding-top: 1em;
+}
+
+.k15t-dialog .com-k15t-scroll-results .tabs-pane {
+    padding: 1em 2em;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-actions {
+    padding-left: 0;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-action {
+    background: none no-repeat scroll 24px 14px #efefef;
+    float: left;
+    list-style: none outside none;
+    margin-right: 16px;
+    padding: 0 12px 12px 52px;
+    width: 280px;
+    min-height: 64px;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-action p {
+    font-weight: bold;
+    color: #333333;
+    margin: 13px 0 4px;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-action p.description {
+    font-size: 11px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-action:last-child {
+    margin-right: 0;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-action.last-child {
+    margin-right: 0;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-action:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-download {
+    background-image: url("../../../images/icons/down_16.gif");
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-savesettings {
+    background-image: url('../../../images/icons/save_16.gif');
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-savesettings .save-preset-form {
+    display: none;
+}
+
+.k15t-dialog .com-k15t-scroll-results .results-erroranalysis {
+    background-image: url('images/icons/bug.png');
+}
+
+/* Confluence <= 3.4*/
+
+.k15t-dialog .aui-message {
+    font-size: 13px;
+}
+
+/* quick fix for PDF-144 */
+.k15t-dialog form.aui .com-k15t-scroll-adhoc-workflow div.description {
+    margin-top: 0;
+    padding: 0 0 5px 145px;
+}
+
+
+
+/* === k15t.dialog ============================= */
+
+/* Header Logo */
+.k15t-dialog h2.dialog-title {
+    background-image: url("images/logo_42.png");
+    background-repeat: no-repeat;
+    background-position: 570px -2px;
+    height: 34px;
+    line-height: 34px;
+    padding: 9px 0 0 17px;
+}
+
+.k15t-dialog .tabs-pane {
+    padding-top: 2em;
+}
+
+.k15t-dialog {
+
+}
+
+
+/* fix vertical alignment of text in button panel */
+.k15t-dialog .dialog-button-panel {
+    line-height: 24px;
+}
+
+/* fix AUI colors for fieldset legend */
+.k15t-dialog form.aui legend span {
+    color: #000000;
+}
+
+.k15t-dialog a.k15t-feedback {
+    font-size: 12px;
+    font-weight: normal;
+    border: 1px solid #326CA6;
+    padding: 2px;
+    position: absolute;
+    right: 160px;
+    line-height: 11px;
+    color: #326CA6;
+}
+
